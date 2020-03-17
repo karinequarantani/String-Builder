@@ -9,7 +9,7 @@ import entities.Post;
 public class Program1 {
 	
 	public static void main(String[] args) throws ParseException {
-		
+		System.out.println("Bom dia!");
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		Comments c1 = new Comments ("Have a nice trip!");
 		Comments c2 = new Comments ("Woow that's awesome!");
